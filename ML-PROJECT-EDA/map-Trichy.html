@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9c0b1a31ed7e7b2ed6e79ec4741f29d3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9c0b1a31ed7e7b2ed6e79ec4741f29d3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9c0b1a31ed7e7b2ed6e79ec4741f29d3 = L.map(
+                "map_9c0b1a31ed7e7b2ed6e79ec4741f29d3",
+                {
+                    center: [10.7905, 78.7047],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1c093b23e1b60881a9578cbf12e70df5 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9c0b1a31ed7e7b2ed6e79ec4741f29d3);
+        
+    
+            var circle_marker_b5777697533caed13dee999d0b727fa9 = L.circleMarker(
+                [10.78907, 78.7016],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9c0b1a31ed7e7b2ed6e79ec4741f29d3);
+        
+    
+        var popup_bafe52437af574df37e86e98fe1d6a9d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d9ab6787ef74ae529817bc7c7d88f382 = $(`<div id="html_d9ab6787ef74ae529817bc7c7d88f382" style="width: 100.0%; height: 100.0%;">KBJ Apartment</div>`)[0];
+                popup_bafe52437af574df37e86e98fe1d6a9d.setContent(html_d9ab6787ef74ae529817bc7c7d88f382);
+            
+        
+
+        circle_marker_b5777697533caed13dee999d0b727fa9.bindPopup(popup_bafe52437af574df37e86e98fe1d6a9d)
+        ;
+
+        
+    
+    
+            var circle_marker_7b36cca38a7033ad308c47a417d5c0df = L.circleMarker(
+                [10.78617, 78.70155],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9c0b1a31ed7e7b2ed6e79ec4741f29d3);
+        
+    
+        var popup_d9bc3f10e734a84dd5604cb5eb3b490b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_20ff46033aa5cf14203cd1ea03b5b215 = $(`<div id="html_20ff46033aa5cf14203cd1ea03b5b215" style="width: 100.0%; height: 100.0%;">Mangari Apartment</div>`)[0];
+                popup_d9bc3f10e734a84dd5604cb5eb3b490b.setContent(html_20ff46033aa5cf14203cd1ea03b5b215);
+            
+        
+
+        circle_marker_7b36cca38a7033ad308c47a417d5c0df.bindPopup(popup_d9bc3f10e734a84dd5604cb5eb3b490b)
+        ;
+
+        
+    
+    
+            var circle_marker_5ae0fcac201361dd0a0ed5e34bcea1cb = L.circleMarker(
+                [10.79214, 78.69023],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9c0b1a31ed7e7b2ed6e79ec4741f29d3);
+        
+    
+        var popup_dcba15f14b2e74cdc43de65eb630d66c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_59c263636fc67d4153d9e2150ec8744c = $(`<div id="html_59c263636fc67d4153d9e2150ec8744c" style="width: 100.0%; height: 100.0%;">Service Apartment</div>`)[0];
+                popup_dcba15f14b2e74cdc43de65eb630d66c.setContent(html_59c263636fc67d4153d9e2150ec8744c);
+            
+        
+
+        circle_marker_5ae0fcac201361dd0a0ed5e34bcea1cb.bindPopup(popup_dcba15f14b2e74cdc43de65eb630d66c)
+        ;
+
+        
+    
+    
+            var circle_marker_9aecae1e8bd742d692da9416ea2895d5 = L.circleMarker(
+                [10.7863, 78.699],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9c0b1a31ed7e7b2ed6e79ec4741f29d3);
+        
+    
+        var popup_3c5a4c70141d16bcd3c585cae19ca92a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0f2da52eb61d3eebe67c794784eb84b2 = $(`<div id="html_0f2da52eb61d3eebe67c794784eb84b2" style="width: 100.0%; height: 100.0%;">Mountzien Apartment</div>`)[0];
+                popup_3c5a4c70141d16bcd3c585cae19ca92a.setContent(html_0f2da52eb61d3eebe67c794784eb84b2);
+            
+        
+
+        circle_marker_9aecae1e8bd742d692da9416ea2895d5.bindPopup(popup_3c5a4c70141d16bcd3c585cae19ca92a)
+        ;
+
+        
+    
+    
+            var circle_marker_c15112fec8f7dd089b4b463a49b3216b = L.circleMarker(
+                [10.79421, 78.69266],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9c0b1a31ed7e7b2ed6e79ec4741f29d3);
+        
+    
+        var popup_4709593f2f7d1ad3a8f39bd8cb5cff11 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4756bb33af315f8f216d53c044a835bb = $(`<div id="html_4756bb33af315f8f216d53c044a835bb" style="width: 100.0%; height: 100.0%;">Orchid Apartment</div>`)[0];
+                popup_4709593f2f7d1ad3a8f39bd8cb5cff11.setContent(html_4756bb33af315f8f216d53c044a835bb);
+            
+        
+
+        circle_marker_c15112fec8f7dd089b4b463a49b3216b.bindPopup(popup_4709593f2f7d1ad3a8f39bd8cb5cff11)
+        ;
+
+        
+    
+    
+            var circle_marker_14d2072d302fd201f6d71eaa167b8437 = L.circleMarker(
+                [10.79938, 78.70354],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9c0b1a31ed7e7b2ed6e79ec4741f29d3);
+        
+    
+        var popup_6580233848aa0501f6cb810ed9ace97c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_00e49113d2fb6ebdbbd526ca98afcc31 = $(`<div id="html_00e49113d2fb6ebdbbd526ca98afcc31" style="width: 100.0%; height: 100.0%;">Ark Sangai (Ark Sangai Apartment)</div>`)[0];
+                popup_6580233848aa0501f6cb810ed9ace97c.setContent(html_00e49113d2fb6ebdbbd526ca98afcc31);
+            
+        
+
+        circle_marker_14d2072d302fd201f6d71eaa167b8437.bindPopup(popup_6580233848aa0501f6cb810ed9ace97c)
+        ;
+
+        
+    
+    
+            var circle_marker_a39f23e3a8532a034ad8686e76d51620 = L.circleMarker(
+                [10.79305, 78.69537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9c0b1a31ed7e7b2ed6e79ec4741f29d3);
+        
+    
+        var popup_3703732d268e83a86a14f96b011c161b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6f3c93d3a7b1011d817af6ce15ee0f45 = $(`<div id="html_6f3c93d3a7b1011d817af6ce15ee0f45" style="width: 100.0%; height: 100.0%;">Fatima Apartment</div>`)[0];
+                popup_3703732d268e83a86a14f96b011c161b.setContent(html_6f3c93d3a7b1011d817af6ce15ee0f45);
+            
+        
+
+        circle_marker_a39f23e3a8532a034ad8686e76d51620.bindPopup(popup_3703732d268e83a86a14f96b011c161b)
+        ;
+
+        
+    
+    
+            var circle_marker_e6f7126a656deb61e33d8cb4d79df845 = L.circleMarker(
+                [10.80315, 78.68535],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9c0b1a31ed7e7b2ed6e79ec4741f29d3);
+        
+    
+        var popup_4283e5cade95c091c0a3e62b4f82cc82 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3e9872bca21a066d51e0c5afdf43c66f = $(`<div id="html_3e9872bca21a066d51e0c5afdf43c66f" style="width: 100.0%; height: 100.0%;">Manghalam Estates (Mangalam Apartment)</div>`)[0];
+                popup_4283e5cade95c091c0a3e62b4f82cc82.setContent(html_3e9872bca21a066d51e0c5afdf43c66f);
+            
+        
+
+        circle_marker_e6f7126a656deb61e33d8cb4d79df845.bindPopup(popup_4283e5cade95c091c0a3e62b4f82cc82)
+        ;
+
+        
+    
+    
+            var circle_marker_38620ec9aee811221b99f2d6cf7efc48 = L.circleMarker(
+                [10.78298, 78.68967],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9c0b1a31ed7e7b2ed6e79ec4741f29d3);
+        
+    
+        var popup_21c9c53c5abe2315b17def9e171d5490 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0511dbc9f0c66da639abdd0823cf0517 = $(`<div id="html_0511dbc9f0c66da639abdd0823cf0517" style="width: 100.0%; height: 100.0%;">Ark Apartment</div>`)[0];
+                popup_21c9c53c5abe2315b17def9e171d5490.setContent(html_0511dbc9f0c66da639abdd0823cf0517);
+            
+        
+
+        circle_marker_38620ec9aee811221b99f2d6cf7efc48.bindPopup(popup_21c9c53c5abe2315b17def9e171d5490)
+        ;
+
+        
+    
+    
+            var circle_marker_3f74ca6e4ad5f05a108a5df4f00ddd71 = L.circleMarker(
+                [10.81466, 78.7014],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9c0b1a31ed7e7b2ed6e79ec4741f29d3);
+        
+    
+        var popup_2ddded775e8bb6836bc0e539b35f7206 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c0cba0182133e695e431a07e59478c5c = $(`<div id="html_c0cba0182133e695e431a07e59478c5c" style="width: 100.0%; height: 100.0%;">Royal (Royal Apartment)</div>`)[0];
+                popup_2ddded775e8bb6836bc0e539b35f7206.setContent(html_c0cba0182133e695e431a07e59478c5c);
+            
+        
+
+        circle_marker_3f74ca6e4ad5f05a108a5df4f00ddd71.bindPopup(popup_2ddded775e8bb6836bc0e539b35f7206)
+        ;
+
+        
+    
+    
+            var feature_group_654e98090aa8ed617e5353c02b5b0dc1 = L.featureGroup(
+                {}
+            ).addTo(map_9c0b1a31ed7e7b2ed6e79ec4741f29d3);
+        
+    
+            var marker_04a0eee8c4907c1f9a472dd10ed79406 = L.marker(
+                [10.7905, 78.7047],
+                {}
+            ).addTo(map_9c0b1a31ed7e7b2ed6e79ec4741f29d3);
+        
+    
+        var popup_45377b72a1f848761e102360e7f97d3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9c18fffa36375f873b20fa903475b9d = $(`<div id="html_e9c18fffa36375f873b20fa903475b9d" style="width: 100.0%; height: 100.0%;">Trichy</div>`)[0];
+                popup_45377b72a1f848761e102360e7f97d3a.setContent(html_e9c18fffa36375f873b20fa903475b9d);
+            
+        
+
+        marker_04a0eee8c4907c1f9a472dd10ed79406.bindPopup(popup_45377b72a1f848761e102360e7f97d3a)
+        ;
+
+        
+    
+</script>
+</html>
